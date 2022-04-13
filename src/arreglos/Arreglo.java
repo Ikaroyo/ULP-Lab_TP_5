@@ -60,11 +60,11 @@ public class Arreglo {
     public static void sumarLista(int [] p_arregloUD) {
         /* calcular suma y promedio de un arreglo int[] */
         int suma = 0;
-        int promedio;
+        double promedio;
         for (int i = 0; i < p_arregloUD.length; i++) {
             suma += p_arregloUD[i];
         }
-        promedio = suma / p_arregloUD.length;
+        promedio = suma / (double)p_arregloUD.length;
         System.out.println("Suma: " + suma);
         System.out.println("Promedio: " + promedio);
     }
